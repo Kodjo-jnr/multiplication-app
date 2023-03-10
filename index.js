@@ -24,6 +24,7 @@ formEl.addEventListener("submit", ()=>{
     const userAns = +inputEl.value
     if(userAns === correctAns){
         score++;
+        
         updateLocalStorage()
     } else{
         score--;
